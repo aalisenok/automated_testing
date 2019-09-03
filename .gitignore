@@ -1,4 +1,11 @@
-target/
-bin/
-*.db
-*.log
+.DS_Store
+node_modules
+npm-debug.log
+bower_components
+.sass-cache
+.awspublish*
+config.json
+.idea/
+.vscode/
+.dist/
+.build/
