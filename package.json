@@ -20,12 +20,6 @@
     "browser-sync": "^2.26.7",
     "del": "^5.1.0",
     "gulp": "^4.0.2",
-    "gulp-imagemin": "^6.1.0",
-    "gulp-mjml": "^4.0.2",
-    "gulp-newer": "^1.4.0",
-    "imagemin-giflossy": "^5.1.10",
-    "imagemin-mozjpeg": "^8.0.0",
-    "imagemin-pngquant": "^8.0.0",
-    "imagemin-zopfli": "^6.0.0"
+    "gulp-mjml": "^4.0.2"
   }
 }
