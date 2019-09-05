@@ -1,24 +1,17 @@
 const gulp = require('gulp'),
     mjml = require('gulp-mjml'),
-    browserSync = require('browser-sync').create(),
-    del = require("del");
+    browserSync = require('browser-sync').create();
 
-// MJML
-gulp.task('default', function () {
-    return gulp.src('index.mjml')
+// MJML - https://github.com/mjmlio/mjml
+gulp.task('html', function () {
+    return gulp.src('src/index.mjml')
         .pipe(mjml())
-        .pipe(gulp.dest('build'))
+        .pipe(gulp.dest('./build'))
+        .on('end', browserSync.reload);
 });
-
 // WATCH
 gulp.task('watch', () => {
-    gulp.watch('./src/scss/**/*.scss', gulp.series('inky'));
-    gulp.watch('./src/templates/**/*.html', gulp.series('inky'));
-});
-
-// CLEAN
-gulp.task('del', () => {
-    return del(['./build']);
+    gulp.watch('./src/**/*.mjml', gulp.series('html'));
 });
 
 // SERVE
@@ -28,6 +21,7 @@ gulp.task('serve', () => {
     });
 });
 
-gulp.task('default', gulp.series('del','images',
+// START
+gulp.task('default', gulp.series('html',
     gulp.parallel('watch', 'serve')
 ));
