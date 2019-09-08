@@ -1,114 +1,11 @@
 <mjml>
-<mj-head>
-    <mj-attributes>
-      <mj-class name="yellow" color="yellow" font-size="30px" />
-    </mj-attributes>
-    <mj-style>
-      .yellow a:hover {
-        background-color: green !important;
-      }
-    </mj-style>
-  </mj-head>
   <mj-body>
-    <!-- ========== Free Shipping ========== -->
-    <mj-section background-color="#FDC984" padding="10px">
+    <mj-section>
       <mj-column>
-        <mj-text font-size="14px" font-family="Arial, sans-serif" align="center" font-weight="700" padding="0">
-          <a href="https://arteza.com/" style="text-decoration: none; color: #000000">Free Shipping and Returns</a>
-        </mj-text>
+        <mj-image width="100px" src="https://mjml.io/assets/img/logo-small.png"></mj-image>
+        <mj-divider border-color="#F45E43"></mj-divider>
+        <mj-text font-size="20px" color="#F45E43" font-family="helvetica" align="center">Start Template</mj-text>
       </mj-column>
     </mj-section>
-    <!-- ========== // Free Shipping ========== -->
-    <!-- ========== Logo ========== -->
-    <mj-section background-color="#000" padding="10px">
-      <mj-column>
-        <mj-image width="260px" padding="10px 0 0 0" href="https://arteza.com/" src="https://d3k81ch9hvuctc.cloudfront.net/company/HhsusS/images/e88310f9-126d-45b9-871f-e71df5b8a9f2.png" alt="Arteza"></mj-image>
-      </mj-column>
-    </mj-section>
-    <!-- ========== // Logo ========== -->
-    <!-- ========== Links ========== -->
-    <mj-section background-color="#000000" padding="10px">
-      <mj-column>
-        <mj-text font-size="14px" font-family="Arial, sans-serif" align="center" font-weight="700" padding="10px 0">
-          <a href="#" style="text-decoration: none; color: #ffffff">PENCILS</a>
-        </mj-text>
-      </mj-column>
-      <mj-column>
-        <mj-text font-size="14px" font-family="Arial, sans-serif" align="center" font-weight="700" padding="10px 0">
-          <a href="#" style="text-decoration: none; color: #ffffff">PENS</a>
-        </mj-text>
-      </mj-column>
-      <mj-column>
-        <mj-text font-size="14px" font-family="Arial, sans-serif" align="center" font-weight="700" padding="10px 0">
-          <a href="#" style="text-decoration: none; color: #ffffff">MARKERS</a>
-        </mj-text>
-      </mj-column>
-      <mj-column>
-        <mj-text font-size="14px" font-family="Arial, sans-serif" align="center" font-weight="700" padding="10px 0">
-          <a href="#" style="text-decoration: none; color: #ffffff">PAINT</a>
-        </mj-text>
-      </mj-column>
-      <mj-column>
-        <mj-text font-size="14px" font-family="Arial, sans-serif" align="center" font-weight="700" padding="10px 0">
-          <a href="#" style="text-decoration: none; color: #ffffff">CRAFTING</a>
-        </mj-text>
-      </mj-column>
-    </mj-section>
-    <!-- ========== // Links ========== -->
-
-    <!-- ========== // Afterpay ========== -->
-    <mj-section background-color="#000" padding="10px">
-      <mj-column>
-        <mj-image width="106px" padding="10px 0" href="https://arteza.com/" src="https://d3k81ch9hvuctc.cloudfront.net/company/LFfnN4/images/a70dd95a-b8a3-46a3-8f40-843f2417f6cb.png" alt="Arteza"></mj-image>
-      </mj-column>
-      <mj-column>
-        <mj-image width="138px" padding="10px 0" href="https://arteza.com/" src="https://d3k81ch9hvuctc.cloudfront.net/company/LFfnN4/images/55a4d985-1829-4cbd-a997-777f9653eb5e.png" alt="Arteza"></mj-image>
-      </mj-column>
-      <mj-column>
-        <mj-image width="70px" padding="10px 0" href="https://arteza.com/" src="https://d3k81ch9hvuctc.cloudfront.net/company/LFfnN4/images/bef665d3-0eff-4a42-a410-a9ced764e090.png" alt="Arteza"></mj-image>
-      </mj-column>
-    </mj-section>
-    <!-- ========== // Afterpay ========== -->
-
-    <!-- ========== // Follow us on social ========== -->
-    <mj-section background-color="#E5E5E5" padding="10px">
-      <mj-column>
-        <mj-text font-size="24px" color="#000000" font-family="Arial, sans-serif" align="center" font-weight="700" padding="0">Follow us on social
-        </mj-text>
-      </mj-column>
-    </mj-section>
-    <!-- ========== // Follow us on social ========== -->
-    <!-- ========== // Button ========== -->
-    <mj-section background-color="#E5E5E5" padding="10px">
-      <mj-column>
-        <mj-button css-class="yellow" href="https://arteza.com/" font-family="Arial, sans-serif" text-transform="uppercase" background-color="#FF4200" color="white" border-radius="50px">
-          shop now
-         </mj-button>
-      </mj-column>
-    </mj-section>
-    <!-- ========== // Button ========== -->
-    <!-- ========== // Footer ========== -->
-    <mj-section background-color="#E5E5E5" padding="10px">
-      <mj-column>
-        <mj-text font-size="14px" line-height="18px" color="#999999" font-family="Arial, sans-serif" align="center" font-weight="400" padding="0">
-            You're receiving this email because you are part of our growing <br>
-            community of artists and creators. At Arteza we make premium arts <br>
-            and crafts supplies for every kind of creative expression. <br>
-            We love to share updates on new arrivals, art inspo, <br>
-            exclusive coupons, and free downloads. <br><br>
-            If you would like to unsubscribe, click here:
-        </mj-text>
-      </mj-column>
-    </mj-section>
-    <!-- ========== // Footer ========== -->
-    <!-- ========== // Footer ========== -->
-    <mj-section background-color="#E5E5E5" padding="0 20px">
-      <mj-column>
-        <mj-text font-size="14px" font-family="Arial, sans-serif" align="center" font-weight="700" padding="10px 0">
-          <a href="https://arteza.com/" style="text-decoration: none; color: #000000">Follow us on social</a>
-        </mj-text>
-      </mj-column>
-    </mj-section>
-    <!-- ========== // Footer ========== -->
   </mj-body>
 </mjml>
